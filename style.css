@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    padding: 1%;
+    background-color: rgba(8, 180, 123, 0.925);
+    
+}
+ul{
+
+    margin: auto;
+   
+}
+header{
+    background-image: url("image/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.header-section{
+    height: 100vh;
+    
+}
+.nav-link{
+    
+    margin-right: 20px;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    background-color: rgb(22, 132, 228);
+    border-radius: 12px;
+}
+h1{
+    font-size: 5.5rem;
+    color: rgb(46, 223, 23);
+    font-family: 'Whisper', cursive
+}
+
+                                                                        /*main start here*/
+#daddy{
+    background-color: #FFD1E3;
+}
+.daddy-coll{
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10% 10%;
+    transition: 0.3s;
+}
+.icon-style{
+    padding: 20px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    background-color: rgb(49, 39, 190);
+    color: aliceblue;
+    
+}
+
+.daddy-coll:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 5px 7px black ;
+}
+
+                                                                              /*about-me start here*/
+#about-me{
+    background-color: #EAECCC;
+}
+.hr-style{
+    border: 2px solid yellow ;
+    width: 220px;
+    margin: auto;
+    
+}
+.about-desc{
+    margin: 10% 10%;
+}
+.about-desc-a{
+    margin: 10% 10%;
+}
+.about-desc p{
+    margin-bottom: 0;
+
+}
+.star{
+    color: rgba(23, 19, 235, 0.699);
+}
+
+.about-desc-a td{
+    font-weight: bolder;
+}
+   /*about-me ends here*/
+
+    /*tutorial start here*/
+#Tutorial{
+    background-color: #C3E2C2;
+    
+}
+
+.card{ 
+    margin: 5%;
+    transition: 0.5s;
+    background-color:gray;
+    
+}
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 5px 7px black ;
+}
+  
+
+/*tutorial ends here*/
+
+/*feedback start here*/
+#feedback{
+    background-color: #607274;
+    padding: 3%;
+} 
+
+.img-lol{
+    border: 2px solid rgb(132, 233, 17);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+
+}
+.carousel-item {
+    padding: 9% 15%;
+    text-align: center;
+    color: #EAECCC;
+}
+
+
+/*feedback ends here*/
+/*contact starts here*/
+#contact-me{
+    background-color: #607274;
+    padding: 3%;
+}
+
+.form-group label{
+    margin: 10px;
+}
+
+/*contact ends here*/
+
+
+
+/*main ends here*/
+#dogy{
+    background-color: #092635;
+    padding: 2% 6%;
+}
+
+.togo a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
